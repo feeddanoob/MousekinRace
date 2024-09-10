@@ -24,6 +24,16 @@
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/RecipeDef[defName="Mousekin_Make_FlourFromWheat"]</xpath>
 				</li>
+				
+				<!-- Remove the flour grinding spot since the only recipe is also removed -->
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="MouseKin_FlourGrindingSpot"]</xpath>
+				</li>
+				
+				<!-- Likewise remove the workgiver info -->
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/WorkGiverDef[defName="DoBillsCook"]/fixedBillGiverDefs/li[text()="MouseKin_FlourGrindingSpot"]</xpath>
+				</li>
 			
 			</operations>
 		</match>

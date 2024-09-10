@@ -10,7 +10,8 @@
 				<xpath>Defs/WorkGiverDef[defName="DoBillsCook"]/fixedBillGiverDefs</xpath>
 				<value>
 					<li>Mousekin_CastIronStove</li>
-					<li>CraftingSpot</li> <!-- Enables flour grinding recipe -->
+					<!-- <li>CraftingSpot</li> --> <!-- Enables flour grinding recipe -->
+					<li>MouseKin_FlourGrindingSpot</li> <!-- Let's not use the crafting spot as a cooking work, causes chefs to craft... and in MO's case, craft wood. -->
 				</value>
 			</li>
 
