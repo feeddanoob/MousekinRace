@@ -15,8 +15,9 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<recipeUsers>
-			<li>CraftingSpot</li>
+			<!-- <li>CraftingSpot</li> -->
 			<li>Mousekin_CastIronStove</li>
+			<li>MouseKin_FlourGrindingSpot</li>
 		</recipeUsers>
 		<ingredients>
 			<li>
