@@ -106,6 +106,8 @@ namespace MousekinRace
         public static FactionDef Mousekin_FactionKingdom;
         public static FactionDef Mousekin_FactionIndyTown;
 
+        public static MainButtonDef Mousekin_MainButton_Allegiance;
+
         [MayRequireRoyalty]
         public static QuestScriptDef EndGame_RoyalAscent;
 
@@ -114,6 +116,9 @@ namespace MousekinRace
 
         [MayRequireIdeology]
         public static MemeDef Mousekin_IdeoMeme_AncestorWorship;
+
+        [MayRequireIdeology]
+        public static MemeDef Mousekin_IdeoMeme_Raider;
 
         [MayRequireIdeology]
         public static MemeDef Mousekin_IdeoMeme_RodentPurity;
