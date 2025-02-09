@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Tree Festival - Mousekin equivalent of Christmas -->
+	
+	<RitualPatternDef ParentName="CelebrationConsumable">
+		<defName>Mousekin_RitualPatternTreeFestival</defName>
+		<shortDescOverride>tree festival</shortDescOverride>
+		<descOverride>A party around a pine tree, which symbolizes endurance during winter and other times of hardship. Participants will gather around the tree and make merry.</descOverride>
+		<canStartAnytime>false</canStartAnytime>
+		<iconPathOverride>UI/Icons/Rituals/TreeCelebration</iconPathOverride>
+		<ritualObligationTargetFilter>Mousekin_IdeoXmasTree</ritualObligationTargetFilter>
+		<ritualBehavior>CelebrationTree</ritualBehavior>
+		<nameMaker>NamerRitualTreeFestivalMousekin</nameMaker>
+		<ignoreConsumableBuildingRequirement>true</ignoreConsumableBuildingRequirement>
+		<ritualOutcomeEffect>DestroyConsumableBuilding_Mousekin_Generic</ritualOutcomeEffect>
+	</RitualPatternDef>
+	
+	<!-- Ancestral Flower Dance - Mousekin ancestor worship  -->
+	
+	<RitualPatternDef ParentName="CelebrationConsumable">
+		<defName>Mousekin_RitualPatternFlowerDance</defName>
+		<shortDescOverride>ancestor worship</shortDescOverride>
+		<descOverride>A ancestral rite unique to Mousekin societies, often held to venerate ancestors or appease the souls of the dead after a major calamity. Participants will gather to watch nuns dance with flower bouquets around a pile of offerings.</descOverride>
+		<iconPathOverride>UI/Icons/Rituals/FlowerDance</iconPathOverride>
+		<canStartAnytime>true</canStartAnytime>
+		<alwaysStartAnytime>true</alwaysStartAnytime>
+		<ritualObligationTargetFilter>Mousekin_IdeoFlowerDanceOfferings</ritualObligationTargetFilter>
+		<ritualBehavior>Mousekin_RitualBehaviorFlowerDance</ritualBehavior>
+		<nameMaker>NamerRitualFlowerDanceMousekin</nameMaker>
+		<ritualOutcomeEffect>DestroyConsumableBuilding_Mousekin_FlowerDance</ritualOutcomeEffect>
+	</RitualPatternDef>
+	
+	<!-- Countryside Cookout - Indy Town Mousekin barbecue -->
+	
+	<RitualPatternDef ParentName="CelebrationConsumable">
+		<defName>Mousekin_RitualPatternBarbecue</defName>
+		<shortDescOverride>barbecue</shortDescOverride>
+		<descOverride>A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables.</descOverride>
+		<iconPathOverride>UI/Icons/Rituals/Barbecue</iconPathOverride>
+		<canStartAnytime>true</canStartAnytime>
+		<alwaysStartAnytime>true</alwaysStartAnytime>
+		<ritualObligationTargetFilter>Mousekin_IdeoBarbecueTable</ritualObligationTargetFilter>
+		<ritualBehavior>Mousekin_RitualBehaviorBarbecue</ritualBehavior>
+		<nameMaker>NamerRitualBarbecueMousekin</nameMaker>
+		<ritualOutcomeEffect>DestroyConsumableBuilding_Mousekin_Generic</ritualOutcomeEffect>
+	</RitualPatternDef>
+	
+	<!-- Mousekin Brigand variant of the Gladiator Duel ritual pattern, which uses a custom namemaker that simply defaults to "Gladiator Duel" -->
+
+	<RitualPatternDef>
+		<defName>Mousekin_RitualPatternGladiatorDuel</defName>
+		<canStartAnytime>true</canStartAnytime>
+		<ritualObligationTargetFilter>AnyRitualSpot</ritualObligationTargetFilter>
+		<ritualBehavior>GladiatorDuel</ritualBehavior>
+		<alwaysStartAnytime>true</alwaysStartAnytime>
+		<nameMaker>NamerRitualGladiatorDuelMousekin</nameMaker>
+		<ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+		<ritualOutcomeEffect>GladiatorDuel</ritualOutcomeEffect>
+		<tags Inherit="False" />
+		<playsIdeoMusic>false</playsIdeoMusic>
+	</RitualPatternDef>
+
+</Defs>

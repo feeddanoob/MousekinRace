@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: eating at TargetA. -->
+	<Mousekin_Job_EatAtBarbecueTable.reportString>TargetAで食事中</Mousekin_Job_EatAtBarbecueTable.reportString>
+	
+	<!-- EN: performing Ancestral Flower Dance. -->
+	<Mousekin_Job_PerformFlowerDance.reportString>先祖供養の花の舞を踊る</Mousekin_Job_PerformFlowerDance.reportString>
+	
+</LanguageData>

@@ -19,6 +19,96 @@
 	<!-- EN: Wow, this actually tastes pretty good. -->
 	<Humanlike_Thought_DrankChonkoNutBrew.stages.0.description>와, 이거 진짜 맛있어요.</Humanlike_Thought_DrankChonkoNutBrew.stages.0.description>
 	
+	<!-- EN: terrible flower dance -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.0.label>끔찍한 부품 꽃춤</Humanlike_Thought_FlowerDanceTerrible.stages.0.label>
+	
+	<!-- EN: Those nuns hobbled around like they've had a bit too much to drink beforehand, and they trampled all over the offerings. Our ancestors would weep at such a disgrace! -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.0.description>그 수녀들은 미리 술을 너무 많이 마신 듯이 비틀거리며 제물을 짓밟고 다녔다. 우리 조상님들께서도 이런 치욕에 눈물을 흘리셨을 거예요!</Humanlike_Thought_FlowerDanceTerrible.stages.0.description>
+	
+	<!-- EN: mediocre flower dance< -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.1.label>평범한 부품 꽃춤</Humanlike_Thought_FlowerDanceTerrible.stages.1.label>
+	
+	<!-- EN: The nuns' movements were stiff, unnatural and passionless. There was hardly any dignity to the ceremony. -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.1.description>수녀들의 움직임은 뻣뻣하고 부자연스러웠으며 열정이 없었습니다. 예식에는 품위가 거의 없었습니다.</Humanlike_Thought_FlowerDanceTerrible.stages.1.description>
+	
+	<!-- EN: beautiful flower dance -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.2.label>아름다운 부품 꽃춤</Humanlike_Thought_FlowerDanceTerrible.stages.2.label>
+	
+	<!-- EN: The flower dance was beautiful. The nuns really moved with grace and finesse. Our ancestors would be pleased with our devotion to their memory. -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.2.description>꽃 춤은 아름다웠습니다. 수녀님들은 우아함과 기교로 정말 감동했습니다. 조상님들께서도 우리의 헌신을 기뻐하실 것입니다.</Humanlike_Thought_FlowerDanceTerrible.stages.2.description>
+	
+	<!-- EN: unforgettable flower dance -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.3.label>잊을 수 없는 꽃춤</Humanlike_Thought_FlowerDanceTerrible.stages.3.label>
+	
+	<!-- EN: The flower dance was specatular! The nuns danced with otherworldly grace, their movements flowing like a gentle breeze, flower petals raining everywhere. It was as if the spirits of our very ancestors were here with us! -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.3.description>꽃 춤은 장관이었어요! 수녀님들의 움직임은 산들바람처럼 부드럽게 흐르고 꽃잎이 사방에 흩날리는 듯 다른 세상의 우아함으로 춤을 추었습니다. 마치 우리 조상들의 영혼이 우리와 함께 있는 것 같았어요!</Humanlike_Thought_FlowerDanceTerrible.stages.3.description>
+	
+	<!-- EN: few flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.0.label>몇 개의 꽃이 파괴되었습니다</Humanlike_Thought_FlowersDestroyed.stages.0.label>
+	
+	<!-- EN: A handful of flowers were snuffed out before they could fully blossom...what a shame! -->
+	<Humanlike_Thought_FlowersDestroyed.stages.0.description>한 줌의 꽃이 완전히 피기도 전에 지고 말았으니... 얼마나 안타까운 일인가요!</Humanlike_Thought_FlowersDestroyed.stages.0.description>
+	
+	<!-- EN: some flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.1.label>일부 꽃이 파괴되었습니다</Humanlike_Thought_FlowersDestroyed.stages.1.label>
+	
+	<!-- EN: Our flower beds are blemished with missing blooms, every broken stem a reminder of how fragile the beauty of nature can be. -->
+	<Humanlike_Thought_FlowersDestroyed.stages.1.description>화단은 꽃이 떨어져 흠집이 나고, 부러진 줄기마다 자연의 아름다움이 얼마나 연약할 수 있는지를 일깨워줍니다.</Humanlike_Thought_FlowersDestroyed.stages.1.description>
+	
+	<!-- EN: many flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.2.label>많은 꽃이 파괴되었습니다</Humanlike_Thought_FlowersDestroyed.stages.2.label>
+	
+	<!-- EN: Our gardens are scarred with swaths of ravaged stems, where dozens of colored petals once danced gaily in the breeze, a place of tranquility now a stark testament to all that has been lost. -->
+	<Humanlike_Thought_FlowersDestroyed.stages.2.description>한때 수십 가지 색의 꽃잎이 바람에 흩날리던 정원은 황폐화된 줄기로 상처투성이가 되었고, 평온했던 정원은 이제 모든 것을 잃어버렸다는 극명한 증거가 되었습니다.</Humanlike_Thought_FlowersDestroyed.stages.2.description>
+	
+	<!-- EN: countless flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.3.label>수많은 꽃이 파괴되었습니다</Humanlike_Thought_FlowersDestroyed.stages.3.label>
+	
+	<!-- EN: Our gardens are ruined! Valerian forgive us, for we have failed our stewardship of this land! -->
+	<Humanlike_Thought_FlowersDestroyed.stages.3.description>우리 정원이 망가졌어요! 현자 발레리안, 이 땅의 청지기 직분을 다하지 못한 저희를 용서하소서!</Humanlike_Thought_FlowersDestroyed.stages.3.description>
+	
+	<!-- EN: no flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.0.label>심은 꽃 없음</Humanlike_Thought_FlowersPlanted.stages.0.label>
+	
+	<!-- EN: Our beds lay bare and the the soil unturned. There are no new blooms this year... -->
+	<Humanlike_Thought_FlowersPlanted.stages.0.description>우리 화단은 흙이 드러나고 흙이 뒤집어지지 않았습니다. 올해는 새로운 꽃이 없습니다...</Humanlike_Thought_FlowersPlanted.stages.0.description>
+	
+	<!-- EN: few flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.1.label>심은 꽃이 거의 없음</Humanlike_Thought_FlowersPlanted.stages.1.label>
+	
+	<!-- EN: Our gardens look so sparse... We've barely planted any new flowers this year. -->
+	<Humanlike_Thought_FlowersPlanted.stages.1.description>우리 정원은 너무 드문드문해요... 올해는 새 꽃을 거의 심지 않았어요.</Humanlike_Thought_FlowersPlanted.stages.1.description>
+	
+	<!-- EN: some flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.2.label>일부 꽃 심기</Humanlike_Thought_FlowersPlanted.stages.2.label>
+	
+	<!-- EN: Our gardens has sprouted new blooms, but there is plenty of room for more flowers. -->
+	<Humanlike_Thought_FlowersPlanted.stages.2.description>우리 정원에 새 꽃이 피었지만 더 많은 꽃을 피울 수 있는 공간은 충분합니다.</Humanlike_Thought_FlowersPlanted.stages.2.description>
+	
+	<!-- EN: many flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.3.label>많은 꽃 심기</Humanlike_Thought_FlowersPlanted.stages.3.label>
+	
+	<!-- EN: Our gardens flourish! The breeze is sweet with the colors and scents of this year's flower beds. -->
+	<Humanlike_Thought_FlowersPlanted.stages.3.description>우리 정원이 활짝 피었습니다! 올해 화단의 색과 향기로 산들바람이 달콤합니다.</Humanlike_Thought_FlowersPlanted.stages.3.description>
+	
+	<!-- EN: plethora of flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.4.label>수많은 꽃 심기</Humanlike_Thought_FlowersPlanted.stages.4.label>
+	
+	<!-- EN: Such a delightful riot of colors and shapes. Valerian must be smiling upon us for taking good care of this land! -->
+	<Humanlike_Thought_FlowersPlanted.stages.4.description>색과 모양이 정말 유쾌하게 어우러져 있네요. 현자 발레리안이 이 땅을 잘 가꾸는 우리를 자랑스러워할 거예요!</Humanlike_Thought_FlowersPlanted.stages.4.description>
+	
+	<!-- EN: no flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.0.label>꽃밭 없음</Humanlike_Thought_GardensDesired.stages.0.label>
+	
+	<!-- EN: We don't have a flower garden to admire and relax in, not even a shrubbery. Our community feels so drab and colorless. -->
+	<Humanlike_Thought_GardensDesired.stages.0.description>감탄하고 휴식을 취할 수 있는 꽃밭도, 관목도 없습니다. 우리 커뮤니티는 너무 칙칙하고 무채색으로 느껴집니다.</Humanlike_Thought_GardensDesired.stages.0.description>
+	
+	<!-- EN: inadequate flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.1.label>너무 작은 꽃밭</Humanlike_Thought_GardensDesired.stages.1.label>
+	
+	<!-- EN: What is this, a garden for Pudgemice? It needs to be at least three times as big! -->
+	<Humanlike_Thought_GardensDesired.stages.1.description>퍼지마우스를 위한 정원인가요? 적어도 세 배는 커야 해요!</Humanlike_Thought_GardensDesired.stages.1.description>
+	
 	<!-- EN: prejudiced towards talking mice -->
 	<Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>말하는 쥐에 대한 편견</Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>
 

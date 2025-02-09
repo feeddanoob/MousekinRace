@@ -38,6 +38,18 @@ namespace MousekinRace
             return culture.IsMousekin() && culture.defName.Contains("IndyTown");
         }
 
+        // Determine if a faction's ideo/culture is (based on) the Rodemani Nomads
+        public static bool IsMousekinNomadLike(this CultureDef culture)
+        {
+            return culture.IsMousekin() && culture.defName.Contains("Nomad");
+        }
+
+        // Determine if a faction's ideo/culture is (based on) the Brigands
+        public static bool IsMousekinBrigandLike(this CultureDef culture)
+        {
+            return culture.IsMousekin() && culture.defName.Contains("Brigand");
+        }
+
         // Get the primary race of any given faction
         public static ThingDef_AlienRace GetRaceOfFaction(FactionDef faction) => (faction.basicMemberKind?.race ?? faction.pawnGroupMakers?.SelectMany(selector: groupMaker => groupMaker.options).GroupBy(keySelector: groupMaker => groupMaker.kind.race).OrderByDescending(keySelector: g => g.Count()).First().Key) as ThingDef_AlienRace;
 
@@ -76,6 +88,46 @@ namespace MousekinRace
                 }
             }
             return originalString;
+        }
+
+        // For Mousekin Great Pine cost list strings, replace the original Minified Tree text
+        // with an amended version that includes a "(Pine Tree)" suffix
+        public static string PatchMinifiedTreeWithPineTreeSuffix(this string originalString)
+        {
+            // Handle both lowercase and title case variants
+            originalString = originalString.Replace(ThingDefOf.MinifiedTree.label, ThingDefOf.MinifiedTree.label + $" ({ThingDefOf.Plant_TreePine.label})");
+            originalString = originalString.Replace(ThingDefOf.MinifiedTree.LabelCap, ThingDefOf.MinifiedTree.LabelCap + $" ({ThingDefOf.Plant_TreePine.LabelCap})");
+
+            return originalString;
+        }
+
+        // Regenerate precepts for Mousekin ideos
+        // (useful if the player is migrating an existing save created prior to the v1.2 mod update)
+        public static void RegenerateIdeoPrecepts()
+        {
+            if (Current.ProgramState == ProgramState.Playing)
+            {
+                List<Ideo> mousekinIdeos = Find.IdeoManager.ideos.Where(x => x.culture.IsMousekin()).ToList();
+
+                if (mousekinIdeos.Count > 0)
+                {
+                    foreach (Ideo ideo in mousekinIdeos)
+                    {
+                        ideo.foundation.RandomizePrecepts(init: true, new IdeoGenerationParms(IdeoUIUtility.FactionForRandomization(ideo)));
+                        ideo.RegenerateDescription();
+                        ideo.anyPreceptEdited = false;
+                    }
+                    Messages.Message("MousekinRace_MessageIdeoPreceptRegen_Done".Translate(mousekinIdeos.Count()), MessageTypeDefOf.TaskCompletion, false);
+                }
+                else
+                {
+                    Messages.Message("MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound".Translate(), MessageTypeDefOf.RejectInput, false);
+                }
+            }
+            else
+            {
+                Messages.Message("MousekinRace_MessageIdeoPreceptRegen_MustLoadSavegame".Translate(), MessageTypeDefOf.RejectInput, false);
+            }
         }
     }
 }

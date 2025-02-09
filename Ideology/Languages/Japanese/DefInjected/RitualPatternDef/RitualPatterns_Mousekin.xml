@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: A party around a pine tree, which symbolizes endurance during winter and other times of hardship. Participants will gather around the tree and make merry. -->
+	<Mousekin_RitualPatternTreeFestival.descOverride>松の木を囲む宴会.松の木は冬や苦難に耐えることを象徴している.参加者は松を囲んで歓談する.</Mousekin_RitualPatternTreeFestival.descOverride>
+	
+	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+	<Mousekin_RitualPatternTreeFestival.ritualExpectedDesc>毎年{DATE}に, {MEMBERS}は特別なお祝いをすることができます.</Mousekin_RitualPatternTreeFestival.ritualExpectedDesc>
+	
+	<!-- EN: tree festival -->
+	<Mousekin_RitualPatternTreeFestival.shortDescOverride>木祭り</Mousekin_RitualPatternTreeFestival.shortDescOverride>
+	
+	<!-- EN: A ancestral rite unique to Mousekin societies, often held to venerate ancestors or appease the souls of the dead after a major calamity. Participants will gather to watch nuns dance with flower bouquets around a pile of offerings. -->
+	<Mousekin_RitualPatternFlowerDance.descOverride>先祖を祀ったり、大きな災難の後に死者の魂を鎮めたりするために行われることが多い、マウスキン社会特有の先祖祭祀.参加者は、修道女が供え物の山の周りで花束を持って踊るのを見るために集まる.</Mousekin_RitualPatternFlowerDance.descOverride>
+	
+	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+	<Mousekin_RitualPatternFlowerDance.ritualExpectedDesc>毎年{DATE}に, {MEMBERS}は特別なお祝いをすることができます.</Mousekin_RitualPatternFlowerDance.ritualExpectedDesc>
+	
+	<!-- EN: ancestor worship -->
+	<Mousekin_RitualPatternFlowerDance.shortDescOverride>祖先崇拝</Mousekin_RitualPatternFlowerDance.shortDescOverride>
+	
+	<!-- EN: A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables. -->
+	<Mousekin_RitualPatternBarbecue.descOverride>野外での共同調理と食事会.参加者はバーベキューテーブルを囲み、焼いた肉や野菜に舌鼓を打つ.</Mousekin_RitualPatternBarbecue.descOverride>
+	
+	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+	<Mousekin_RitualPatternBarbecue.ritualExpectedDesc>毎年{DATE}に, {MEMBERS}は特別なお祝いをすることができます.</Mousekin_RitualPatternBarbecue.ritualExpectedDesc>
+	
+	<!-- EN: barbecue -->
+	<Mousekin_RitualPatternBarbecue.shortDescOverride>バーベキュー</Mousekin_RitualPatternBarbecue.shortDescOverride>
+	
+</LanguageData>
