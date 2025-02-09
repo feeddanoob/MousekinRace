@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Great Pine (Mousekin Christmas Tree) -->
+	
+	<ThingDef ParentName="IdeoBuildingConsumableBase">
+		<defName>Mousekin_IdeoXmasTree</defName>
+		<label>great pine</label>
+		<description>A giant pine tree, traditionally decorated with ribbons and ornaments as part of Tree Festival celebrations. Can be placed directly on a Mousekin Town Square without obstructing it.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Misc/Mousekin_IdeoXmasTree</texPath>
+			<drawSize>(3,3)</drawSize>
+			<drawOffset>(0, 0, 0.75)</drawOffset>
+			<shadowData>
+				<volume>(0.8, 1.5, 0.8)</volume>
+				<offset>(0, 0, -0.25)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconScale>0.333</uiIconScale>
+		<costList>
+			<MinifiedTree>1</MinifiedTree>
+		</costList>
+		<rotatable>false</rotatable>
+		<ritualFocus>
+			<spectateDistance>3~4</spectateDistance>
+		</ritualFocus>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>10</Beauty>
+			<Mass>25</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<uiOrder>2050</uiOrder>
+		<passability>PassThroughOnly</passability>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<allowAutoroof>false</allowAutoroof>
+		</building>
+		<comps>
+			<li Class="CompProperties_RitualTargetEffecterSpawner">
+				<effecter>ChristmasTreeTwinkle</effecter>
+			</li>
+			<li Class="CompProperties_RitualSignalSender" />
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(255,255,108,0)</glowColor>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<tradeTags>
+			<li>Mousekin_TownSquare_NotObstruction</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- Ancestral offerings -->
+	
+	<ThingDef ParentName="IdeoBuildingConsumableBase">
+		<defName>Mousekin_IdeoFlowerDanceOfferings</defName>
+		<label>Ancestral offerings</label>
+		<description>Food, candles and flowers offered in veneration to Mousekin ancestors as part of the Ancestral Flower Dance ritual. Can be placed directly on a Mousekin Town Square without obstructing it.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Misc/Mousekin_IdeoFlowerDanceOfferings</texPath>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1, 0.5, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconScale>0.5</uiIconScale>
+		<castEdgeShadows>false</castEdgeShadows>
+		<costList>
+			<Mousekin_Candle>8</Mousekin_Candle>
+			<Mousekin_RawHoney>4</Mousekin_RawHoney>
+			<Mousekin_RawNutChonko>75</Mousekin_RawNutChonko>
+			<Mousekin_RawNutNyam>75</Mousekin_RawNutNyam>
+		</costList>
+		<rotatable>false</rotatable>
+		<ritualFocus>
+			<spectateDistance>3~4</spectateDistance>
+		</ritualFocus>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>2</Beauty>
+			<Mass>25</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<uiOrder>2050</uiOrder>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<allowAutoroof>false</allowAutoroof>
+		</building>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(252,187,113,1)</glowColor>
+			</li>
+			<li Class="MousekinRace.CompProperties_FireOverlayMulti">
+				<fireSize>0.25</fireSize>
+				<fires>
+					<!-- 8 candles in a circle -->
+					<li>
+						<offsetNorth>(0,0,0.8437)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(0.4455,0,0.6697)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(0.6285,0,0.2277)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(0.4455,0,-0.2142)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(0,0,-0.3594)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(-0.4455,0,-0.2142)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(-0.6285,0,0.2277)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(-0.4455,0,0.6697)</offsetNorth>
+					</li>
+				</fires>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<!-- 
+					- 8 candle flames
+					- 8 candle fuelCapacity
+					- lasts for 3 days (0.33333 per day per candle)
+				-->
+				<fuelConsumptionRate>2.666667</fuelConsumptionRate>
+				<fuelCapacity>8.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Mousekin_Candle</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>MousekinRace.PlaceWorker_NeverAdjacentUnstandableAncestralOfferings</li>
+		</placeWorkers>
+		<tradeTags>
+			<li>Mousekin_TownSquare_NotObstruction</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- Barbecue table -->
+	
+	<ThingDef ParentName="IdeoBuildingConsumableBase">
+		<defName>Mousekin_IdeoBarbecueTable</defName>
+		<label>Barbecue table</label>
+		<description>A gridiron over a hot fire, accompanied by a wooden table filled with various grilled meats, corn and potatoes, collectively serving as the centerpiece of Countryside Cookout celebrations. Can be placed directly on a Mousekin Town Square without obstructing it.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/Misc/Mousekin_IdeoBarbecueTable</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(3, 0.75, 0.8)</volume>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<WoodLog>35</WoodLog>
+			<Steel>10</Steel>
+			<Meat_Chicken>15</Meat_Chicken>
+			<Meat_Cow>15</Meat_Cow>
+			<Meat_Pig>15</Meat_Pig>
+			<Meat_Sheep>15</Meat_Sheep>
+			<RawCorn>20</RawCorn>
+			<RawPotatoes>20</RawPotatoes>
+		</costList>
+		<ritualFocus>
+			<spectateDistance>1~2</spectateDistance>
+		</ritualFocus>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>25</Mass>
+		</statBases>
+		<size>(3,1)</size>
+		<passability>PassThroughOnly</passability>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<pathCost>42</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<allowAutoroof>false</allowAutoroof>
+		</building>
+		<placeWorkers Inherit="False" >
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<tradeTags>
+			<li>Mousekin_TownSquare_NotObstruction</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>

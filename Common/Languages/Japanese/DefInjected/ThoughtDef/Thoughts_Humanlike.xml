@@ -19,6 +19,96 @@
 	<!-- EN: Wow, this actually tastes pretty good. -->
 	<Humanlike_Thought_DrankChonkoNutBrew.stages.0.description>わあ、これ、実は結構おいしいんですよ.</Humanlike_Thought_DrankChonkoNutBrew.stages.0.description>
 	
+	<!-- EN: terrible flower dance -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.0.label>酷い花の舞</Humanlike_Thought_FlowerDanceTerrible.stages.0.label>
+	
+	<!-- EN: Those nuns hobbled around like they've had a bit too much to drink beforehand, and they trampled all over the offerings. Our ancestors would weep at such a disgrace! -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.0.description>あの修道女たちは、事前にちょっと飲み過ぎたみたいに足早に歩き回り、お供え物を踏みにじりまくった.私たちの先祖は、このような恥辱に涙することだろう！</Humanlike_Thought_FlowerDanceTerrible.stages.0.description>
+	
+	<!-- EN: mediocre flower dance< -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.1.label>平凡な花の舞</Humanlike_Thought_FlowerDanceTerrible.stages.1.label>
+	
+	<!-- EN: The nuns' movements were stiff, unnatural and passionless. There was hardly any dignity to the ceremony. -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.1.description>修道女の動きは硬く、不自然で、情熱がない.儀式に威厳はほとんどなかった.</Humanlike_Thought_FlowerDanceTerrible.stages.1.description>
+	
+	<!-- EN: beautiful flower dance -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.2.label>美しい花の舞</Humanlike_Thought_FlowerDanceTerrible.stages.2.label>
+	
+	<!-- EN: The flower dance was beautiful. The nuns really moved with grace and finesse. Our ancestors would be pleased with our devotion to their memory. -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.2.description>花の舞は美しかった.修道女たちは本当に優雅で繊細な動きをしていた.ご先祖さまも、私たちがご先祖さまを偲ぶために献身することを喜んでくださることでしょう.</Humanlike_Thought_FlowerDanceTerrible.stages.2.description>
+	
+	<!-- EN: unforgettable flower dance -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.3.label>忘れられない花の舞</Humanlike_Thought_FlowerDanceTerrible.stages.3.label>
+	
+	<!-- EN: The flower dance was specatular! The nuns danced with otherworldly grace, their movements flowing like a gentle breeze, flower petals raining everywhere. It was as if the spirits of our very ancestors were here with us! -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.3.description>花の舞はスペクタクルだった！修道女たちは別世界のような優雅さで踊り、その動きはそよ風のように流れ、花びらがあちこちに降り注いだ.まるで先祖の魂が私たちと一緒にここにいるかのようだった！</Humanlike_Thought_FlowerDanceTerrible.stages.3.description>
+	
+	<!-- EN: few flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.0.label>花が少し傷んだ</Humanlike_Thought_FlowersDestroyed.stages.0.label>
+	
+	<!-- EN: A handful of flowers were snuffed out before they could fully blossom...what a shame! -->
+	<Humanlike_Thought_FlowersDestroyed.stages.0.description>一握りの花は、咲き誇る前に散ってしまった...！</Humanlike_Thought_FlowersDestroyed.stages.0.description>
+	
+	<!-- EN: some flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.1.label>一部の花が損傷した</Humanlike_Thought_FlowersDestroyed.stages.1.label>
+	
+	<!-- EN: Our flower beds are blemished with missing blooms, every broken stem a reminder of how fragile the beauty of nature can be. -->
+	<Humanlike_Thought_FlowersDestroyed.stages.1.description>我が家の花壇は、花が欠けて傷だらけだ.折れた茎の一本一本が、自然の美しさがいかに儚いものであるかを思い起こさせる.</Humanlike_Thought_FlowersDestroyed.stages.1.description>
+	
+	<!-- EN: many flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.2.label>多くの花が損傷した</Humanlike_Thought_FlowersDestroyed.stages.2.label>
+	
+	<!-- EN: Our gardens are scarred with swaths of ravaged stems, where dozens of colored petals once danced gaily in the breeze, a place of tranquility now a stark testament to all that has been lost. -->
+	<Humanlike_Thought_FlowersDestroyed.stages.2.description>かつて何十枚もの色とりどりの花びらがそよ風に揺られ、華やかに舞っていた私たちの庭には、荒れ果てた茎が一面に広がっている、  静寂に包まれたその場所は、いまや失われたもののすべてを如実に物語っている.</Humanlike_Thought_FlowersDestroyed.stages.2.description>
+	
+	<!-- EN: countless flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.3.label>無数の花が損傷した</Humanlike_Thought_FlowersDestroyed.stages.3.label>
+	
+	<!-- EN: Our gardens are ruined! Valerian forgive us, for we have failed our stewardship of this land! -->
+	<Humanlike_Thought_FlowersDestroyed.stages.3.description>私たちの庭園は台無しだ！バレリアンよ、この土地の手入れを怠ったことをお許しください！</Humanlike_Thought_FlowersDestroyed.stages.3.description>
+	
+	<!-- EN: no flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.0.label>花を植えない</Humanlike_Thought_FlowersPlanted.stages.0.label>
+	
+	<!-- EN: Our beds lay bare and the the soil unturned. There are no new blooms this year... -->
+	<Humanlike_Thought_FlowersPlanted.stages.0.description>我が家の花壇は裸のまま、土はそのままだ.今年は新しい花も咲かないし...</Humanlike_Thought_FlowersPlanted.stages.0.description>
+	
+	<!-- EN: few flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.1.label>花を少し植えた</Humanlike_Thought_FlowersPlanted.stages.1.label>
+	
+	<!-- EN: Our gardens look so sparse... We've barely planted any new flowers this year. -->
+	<Humanlike_Thought_FlowersPlanted.stages.1.description>庭がまばらに見える...今年は新しい花をほとんど植えていない.</Humanlike_Thought_FlowersPlanted.stages.1.description>
+	
+	<!-- EN: some flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.2.label>花を植えた</Humanlike_Thought_FlowersPlanted.stages.2.label>
+	
+	<!-- EN: Our gardens has sprouted new blooms, but there is plenty of room for more flowers. -->
+	<Humanlike_Thought_FlowersPlanted.stages.2.description>私たちの庭は新しい花を咲かせたが、もっと花を咲かせる余地はたくさんある.</Humanlike_Thought_FlowersPlanted.stages.2.description>
+	
+	<!-- EN: many flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.3.label>多くの花を植えた</Humanlike_Thought_FlowersPlanted.stages.3.label>
+	
+	<!-- EN: Our gardens flourish! The breeze is sweet with the colors and scents of this year's flower beds. -->
+	<Humanlike_Thought_FlowersPlanted.stages.3.description>我が家の庭が花開いた！そよ風が今年の花壇の色と香りを運んでくる.</Humanlike_Thought_FlowersPlanted.stages.3.description>
+	
+	<!-- EN: plethora of flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.4.label>無数の花を植えた</Humanlike_Thought_FlowersPlanted.stages.4.label>
+	
+	<!-- EN: Such a delightful riot of colors and shapes. Valerian must be smiling upon us for taking good care of this land! -->
+	<Humanlike_Thought_FlowersPlanted.stages.4.description>色と形の楽しい乱舞だ.賢者バレリアンは、この土地を大切にする私たちを誇りに思うに違いない！</Humanlike_Thought_FlowersPlanted.stages.4.description>
+	
+	<!-- EN: no flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.0.label>花園なし</Humanlike_Thought_GardensDesired.stages.0.label>
+	
+	<!-- EN: We don't have a flower garden to admire and relax in, not even a shrubbery. Our community feels so drab and colorless. -->
+	<Humanlike_Thought_GardensDesired.stages.0.description>私たちには、感嘆したりくつろいだりする花畑もなければ、低木の庭さえない.私たちのコミュニティは、とても殺風景で無彩色に感じられる.</Humanlike_Thought_GardensDesired.stages.0.description>
+	
+	<!-- EN: inadequate flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.1.label>小さすぎる花園</Humanlike_Thought_GardensDesired.stages.1.label>
+	
+	<!-- EN: What is this, a garden for Pudgemice? It needs to be at least three times as big! -->
+	<Humanlike_Thought_GardensDesired.stages.1.description>これは何だ？パッジマウスのための庭か？少なくとも3倍の広さが必要だ！</Humanlike_Thought_GardensDesired.stages.1.description>
+	
 	<!-- EN: prejudiced towards talking mice -->
 	<Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>話すネズミに対する偏見</Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>
 

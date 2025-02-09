@@ -61,11 +61,13 @@ namespace MousekinRace
                 return (Mousekin as ThingDef_AlienRace).alienRace.raceRestriction.researchList.FirstOrDefault(p => !p.apparelList.NullOrEmpty()).projects;
             }
         }
-        
+
+        public static ThoughtDef AteLavishMeal;
         public static ThoughtDef Mousekin_Thought_AteCheese;
         public static ThoughtDef Mousekin_Thought_ChurchAttendedService;
         public static ThoughtDef Mousekin_Thought_ChurchHeldService;
         public static ThoughtDef Mousekin_Thought_ChurchMissedService;
+        public static ThoughtDef Humanlike_Thought_GardensDesired;
 
         public static TraitDef Mousekin_TraitSpectrum_Faith;
 
@@ -108,6 +110,10 @@ namespace MousekinRace
 
         public static MainButtonDef Mousekin_MainButton_Allegiance;
 
+        public static FlowerListDef Mousekin_ValidFlowers;
+
+        public static SoundDef Meal_Eat;
+
         [MayRequireRoyalty]
         public static QuestScriptDef EndGame_RoyalAscent;
 
@@ -133,7 +139,37 @@ namespace MousekinRace
         public static PreceptDef HAR_AlienRaces_Exalted;
 
         [MayRequireIdeology]
+        public static JobDef Mousekin_Job_EatAtBarbecueTable;
+
+        [MayRequireIdeology]
+        public static JobDef Mousekin_Job_PerformFlowerDance;
+
+        [MayRequireIdeology]
+        public static PreceptDef Mousekin_Precept_FlowersDesired;
+
+        [MayRequireIdeology]
+        public static RitualAttachableOutcomeEffectDef RandomRecruit;
+
+        [MayRequireIdeology]
         public static RulePackDef NamerRoleMoralist_Mousekin;
+
+        [MayRequireIdeology]
+        public static RulePackDef NamerRitualFuneralMousekinKingdom;
+
+        [MayRequireIdeology]
+        public static RulePackDef NamerRitualFuneralMousekinIndyTown;
+
+        [MayRequireIdeology]
+        public static RulePackDef NamerRitualFuneralMousekinNomads;
+
+        [MayRequireIdeology]
+        public static RulePackDef NamerRitualBarbecueMousekin;
+
+        [MayRequireIdeology]
+        public static RulePackDef NamerRitualTreeFestivalMousekin;
+
+        [MayRequireIdeology]
+        public static ThingDef Mousekin_IdeoXmasTree;
 
         [MayRequireBiotech]
         public static PawnKindDef MousekinChild;

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Funerals -->
+
+	<RulePackDef>
+		<defName>NamerRitualFuneralMousekinKingdom</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Interment</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerRitualFuneralMousekinIndyTown</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Republican Eulogy</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerRitualFuneralMousekinNomads</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Wanderer's Final Rest</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<!-- Celebrations -->
+	
+	<RulePackDef>
+		<defName>NamerRitualBarbecueMousekin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Countryside cookout</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerRitualTreeFestivalMousekin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Tree festival</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<!-- Misc -->
+	
+	<RulePackDef>
+		<defName>NamerRitualFlowerDanceMousekin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Ancestral flower dance</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerRitualGladiatorDuelMousekin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Gladiator duel</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+</Defs>

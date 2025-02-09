@@ -19,6 +19,96 @@
 	<!-- EN: Wow, this actually tastes pretty good. -->
 	<Humanlike_Thought_DrankChonkoNutBrew.stages.0.description>哇，這個味道其實還不錯。</Humanlike_Thought_DrankChonkoNutBrew.stages.0.description>
 	
+	<!-- EN: terrible flower dance -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.0.label>糟糕的祭祖花舞</Humanlike_Thought_FlowerDanceTerrible.stages.0.label>
+	
+	<!-- EN: Those nuns hobbled around like they've had a bit too much to drink beforehand, and they trampled all over the offerings. Our ancestors would weep at such a disgrace! -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.0.description>那些修女步履蹣跚，就像事先喝多了一樣，把供品踩得滿地都是。我們的祖先會為這樣的恥辱而哭泣!</Humanlike_Thought_FlowerDanceTerrible.stages.0.description>
+	
+	<!-- EN: mediocre flower dance< -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.1.label>单调的祭祖花舞</Humanlike_Thought_FlowerDanceTerrible.stages.1.label>
+	
+	<!-- EN: The nuns' movements were stiff, unnatural and passionless. There was hardly any dignity to the ceremony. -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.1.description>修女們的動作僵硬、不自然、沒有熱情。儀式幾乎沒有任何尊嚴可言。</Humanlike_Thought_FlowerDanceTerrible.stages.1.description>
+	
+	<!-- EN: beautiful flower dance -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.2.label>優美的祭祖花舞</Humanlike_Thought_FlowerDanceTerrible.stages.2.label>
+	
+	<!-- EN: The flower dance was beautiful. The nuns really moved with grace and finesse. Our ancestors would be pleased with our devotion to their memory. -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.2.description>花舞非常優美。修女們的動作真的是優雅而精巧。我們的祖先會因為我們對他們的奉獻而感到欣慰。</Humanlike_Thought_FlowerDanceTerrible.stages.2.description>
+	
+	<!-- EN: unforgettable flower dance -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.3.label>難忘的祭祖花舞</Humanlike_Thought_FlowerDanceTerrible.stages.3.label>
+	
+	<!-- EN: The flower dance was specatular! The nuns danced with otherworldly grace, their movements flowing like a gentle breeze, flower petals raining everywhere. It was as if the spirits of our very ancestors were here with us! -->
+	<Humanlike_Thought_FlowerDanceTerrible.stages.3.description>令人驚嘆的花舞！修女們舞姿優美，動作如微風拂面，花瓣紛飛。彷彿我們祖先的靈魂與我們同在！</Humanlike_Thought_FlowerDanceTerrible.stages.3.description>
+	
+	<!-- EN: few flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.0.label>少許的花被破壞</Humanlike_Thought_FlowersDestroyed.stages.0.label>
+	
+	<!-- EN: A handful of flowers were snuffed out before they could fully blossom...what a shame! -->
+	<Humanlike_Thought_FlowersDestroyed.stages.0.description>一小撮花朵還沒完全開放就被破壞了...真可惜！</Humanlike_Thought_FlowersDestroyed.stages.0.description>
+	
+	<!-- EN: some flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.1.label>一些的花被破壞</Humanlike_Thought_FlowersDestroyed.stages.1.label>
+	
+	<!-- EN: Our flower beds are blemished with missing blooms, every broken stem a reminder of how fragile the beauty of nature can be. -->
+	<Humanlike_Thought_FlowersDestroyed.stages.1.description>我們的花圃被遺失的花朵玷污，每一個折斷的莖都在提醒我們大自然的美麗是多麼的脆弱。</Humanlike_Thought_FlowersDestroyed.stages.1.description>
+	
+	<!-- EN: many flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.2.label>許多的花被破壞</Humanlike_Thought_FlowersDestroyed.stages.2.label>
+	
+	<!-- EN: Our gardens are scarred with swaths of ravaged stems, where dozens of colored petals once danced gaily in the breeze, a place of tranquility now a stark testament to all that has been lost. -->
+	<Humanlike_Thought_FlowersDestroyed.stages.2.description>我們的花園裡有一片片被摧毀的花莖，數十片彩色的花瓣曾經在微風中歡舞，這片寧靜的地方現在成了一切逝去的殘酷見證。</Humanlike_Thought_FlowersDestroyed.stages.2.description>
+	
+	<!-- EN: countless flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.3.label>無數的花被破壞</Humanlike_Thought_FlowersDestroyed.stages.3.label>
+	
+	<!-- EN: Our gardens are ruined! Valerian forgive us, for we have failed our stewardship of this land! -->
+	<Humanlike_Thought_FlowersDestroyed.stages.3.description>我們的花園毀了!智者缬草啊，请原谅我們辜負了對這片土地的照顧！</Humanlike_Thought_FlowersDestroyed.stages.3.description>
+	
+	<!-- EN: no flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.0.label>沒有種花</Humanlike_Thought_FlowersPlanted.stages.0.label>
+	
+	<!-- EN: Our beds lay bare and the the soil unturned. There are no new blooms this year... -->
+	<Humanlike_Thought_FlowersPlanted.stages.0.description>我們的花床光禿禿的，土壤也沒有翻過。今年沒有開新花...</Humanlike_Thought_FlowersPlanted.stages.0.description>
+	
+	<!-- EN: few flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.1.label>種植了少許的花</Humanlike_Thought_FlowersPlanted.stages.1.label>
+	
+	<!-- EN: Our gardens look so sparse... We've barely planted any new flowers this year. -->
+	<Humanlike_Thought_FlowersPlanted.stages.1.description>我們的花園看起來很稀疏... 今年我們幾乎沒種什麼新花。</Humanlike_Thought_FlowersPlanted.stages.1.description>
+	
+	<!-- EN: some flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.2.label>種植了一些的花</Humanlike_Thought_FlowersPlanted.stages.2.label>
+	
+	<!-- EN: Our gardens has sprouted new blooms, but there is plenty of room for more flowers. -->
+	<Humanlike_Thought_FlowersPlanted.stages.2.description>我們的花園已經開出新的花朵，但還有很多地方可以種植更多的花。</Humanlike_Thought_FlowersPlanted.stages.2.description>
+	
+	<!-- EN: many flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.3.label>種植了許多的花</Humanlike_Thought_FlowersPlanted.stages.3.label>
+	
+	<!-- EN: Our gardens flourish! The breeze is sweet with the colors and scents of this year's flower beds. -->
+	<Humanlike_Thought_FlowersPlanted.stages.3.description>我們的花園欣欣向榮！微風拂過，今年花圃的色彩和香味都是甜美的。</Humanlike_Thought_FlowersPlanted.stages.3.description>
+	
+	<!-- EN: plethora of flowers planted -->
+	<Humanlike_Thought_FlowersPlanted.stages.4.label>種植了無數的花</Humanlike_Thought_FlowersPlanted.stages.4.label>
+	
+	<!-- EN: Such a delightful riot of colors and shapes. Valerian must be smiling upon us for taking good care of this land! -->
+	<Humanlike_Thought_FlowersPlanted.stages.4.description>顏色和形狀都如此豐富，令人愉悅。智者纈草一定會為我們好好照顧這片土地而感到驕傲！</Humanlike_Thought_FlowersPlanted.stages.4.description>
+	
+	<!-- EN: no flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.0.label>沒有花園</Humanlike_Thought_GardensDesired.stages.0.label>
+	
+	<!-- EN: We don't have a flower garden to admire and relax in, not even a shrubbery. Our community feels so drab and colorless. -->
+	<Humanlike_Thought_GardensDesired.stages.0.description>我們沒有花園可供欣賞和休憩，甚至連灌木叢也沒有。我們的社區給人的感覺是如此單調無色。</Humanlike_Thought_GardensDesired.stages.0.description>
+	
+	<!-- EN: inadequate flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.1.label>太小的花園</Humanlike_Thought_GardensDesired.stages.1.label>
+	
+	<!-- EN: What is this, a garden for Pudgemice? It needs to be at least three times as big! -->
+	<Humanlike_Thought_GardensDesired.stages.1.description>這是什麼,給胖胖鼠的花園嗎？它至少需要比這個大三倍！</Humanlike_Thought_GardensDesired.stages.1.description>
+	
 	<!-- EN: prejudiced towards talking mice -->
 	<Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>歧視會說話的老鼠</Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>
 

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using RimWorld;
+using UnityEngine;
 using Verse;
 
 namespace MousekinRace
@@ -9,6 +10,7 @@ namespace MousekinRace
         public float RootCellarTemperature = 1f;
         public int ChurchTitheMultiplier = 1;
         public int AllegianceSys_DaysBetweenRandomTraders = 5;
+        public float ListingStandardRowHeight = 30f;
 
         public override void ExposeData()
         {
@@ -33,7 +35,7 @@ namespace MousekinRace
             listingStandard.Gap();
             listingStandard.Header("MousekinRace_Settings_SectionRace_Heading".Translate());
             listingStandard.CheckboxLabeled("MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label".Translate(),
-                ref EarlessMousekinsAreSuicidal, "MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip".Translate());
+                ref EarlessMousekinsAreSuicidal, "MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip".Translate(), ListingStandardRowHeight);
 
             listingStandard.Gap();
             listingStandard.Header("MousekinRace_Settings_SectionMisc_Heading".Translate());
@@ -46,6 +48,16 @@ namespace MousekinRace
 
             listingStandard.Header("MousekinRace_Settings_SectionAllegianceSys_Heading".Translate());
             AllegianceSys_DaysBetweenRandomTraders = (int)listingStandard.SliderLabeled("MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label".Translate("PeriodDays".Translate(AllegianceSys_DaysBetweenRandomTraders)), AllegianceSys_DaysBetweenRandomTraders, 3, 10, 0.65f, "MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip".Translate());
+
+            if (ModsConfig.IdeologyActive)
+            {
+                listingStandard.Gap();
+                listingStandard.Header("DifficultyIdeologySection".Translate());
+                if (listingStandard.ButtonTextLabeledPct("MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Label".Translate(), "Regenerate".Translate(), 0.65f, TextAnchor.MiddleLeft, null, "MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Tooltip".Translate()))
+                {
+                    Utils.RegenerateIdeoPrecepts();
+                }
+            }
 
             listingStandard.End();
         }

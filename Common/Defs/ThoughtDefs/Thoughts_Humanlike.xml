@@ -44,6 +44,144 @@
 	</ThoughtDef>
 	
 	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowerDanceTerrible</defName>
+		<thoughtClass>Thought_AttendedRitual</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>terrible flower dance</label>
+				<description>Those nuns hobbled around like they've had a bit too much to drink beforehand, and they trampled all over the offerings. Our ancestors would weep at such a disgrace!</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowerDanceMediocre</defName>
+		<thoughtClass>Thought_AttendedRitual</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>mediocre flower dance</label>
+				<description>The nuns' movements were stiff, unnatural and passionless. There was hardly any dignity to the ceremony.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowerDanceBeautiful</defName>
+		<thoughtClass>Thought_AttendedRitual</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>beautiful flower dance</label>
+				<description>The flower dance was beautiful. The nuns really moved with grace and finesse. Our ancestors would be pleased with our devotion to their memory.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowerDanceUnforgettable</defName>
+		<thoughtClass>Thought_AttendedRitual</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>unforgettable flower dance</label>
+				<description>The flower dance was specatular! The nuns danced with otherworldly grace, their movements flowing like a gentle breeze, flower petals raining everywhere. It was as if the spirits of our very ancestors were here with us!</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowersDestroyed</defName>
+		<thoughtClass>Thought_Situational</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_FlowersDestroyed</workerClass>
+		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+		<stages>
+			<li>
+				<label>few flowers destroyed</label>
+				<description>A handful of flowers were snuffed out before they could fully blossom...what a shame!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>some flowers destroyed</label>
+				<description>Our flower beds are blemished with missing blooms, every broken stem a reminder of how fragile the beauty of nature can be.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<li>
+				<label>many flowers destroyed</label>
+				<description>Our gardens are scarred with swaths of ravaged stems, where dozens of colored petals once danced gaily in the breeze, a place of tranquility now a stark testament to all that has been lost.</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+			<li>
+				<label>countless flowers destroyed</label>
+				<description>Our gardens are ruined! Valerian forgive us, for we have failed our stewardship of this land!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowersPlanted</defName>
+		<thoughtClass>Thought_Situational</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_FlowersPlanted</workerClass>
+		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+		<stages>
+			<li>
+				<label>no flowers planted</label>
+				<description>Our beds lay bare and the the soil unturned. There are no new blooms this year...</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>few flowers planted</label>
+				<description>Our gardens look so sparse... We've barely planted any new flowers this year.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>some flowers planted</label>
+				<description>Our gardens has sprouted new blooms, but there is plenty of room for more flowers.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>many flowers planted</label>
+				<description>Our gardens flourish! The breeze is sweet with the colors and scents of this year's flower beds.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>plethora of flowers planted</label>
+				<description>Such a delightful riot of colors and shapes. Valerian must be smiling upon us for taking good care of this land!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_GardensDesired</defName>
+		<thoughtClass>Thought_Situational</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_GardensDesired</workerClass>
+		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+		<stages>
+			<li>
+				<label>no flower gardens</label>
+				<description>We don't have a flower garden to admire and relax in, not even a shrubbery. Our community feels so drab and colorless.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>inadequate flower gardens</label>
+				<description>What is this, a garden for Pudgemice? It needs to be at least three times as big!</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
 		<defName>Humanlike_Thought_PrejudicedTowardsMousekins</defName>
 		<thoughtClass>Thought_SituationalSocial</thoughtClass>
 		<workerClass>MousekinRace.ThoughtWorker_PrejudicedTowardsMousekins</workerClass>
