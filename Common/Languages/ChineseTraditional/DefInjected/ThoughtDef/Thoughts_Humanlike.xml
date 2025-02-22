@@ -25,23 +25,23 @@
 	<!-- EN: Those nuns hobbled around like they've had a bit too much to drink beforehand, and they trampled all over the offerings. Our ancestors would weep at such a disgrace! -->
 	<Humanlike_Thought_FlowerDanceTerrible.stages.0.description>那些修女步履蹣跚，就像事先喝多了一樣，把供品踩得滿地都是。我們的祖先會為這樣的恥辱而哭泣!</Humanlike_Thought_FlowerDanceTerrible.stages.0.description>
 	
-	<!-- EN: mediocre flower dance< -->
-	<Humanlike_Thought_FlowerDanceTerrible.stages.1.label>单调的祭祖花舞</Humanlike_Thought_FlowerDanceTerrible.stages.1.label>
+	<!-- EN: mediocre flower dance -->
+	<Humanlike_Thought_FlowerDanceMediocre.stages.0.label>单调的祭祖花舞</Humanlike_Thought_FlowerDanceMediocre.stages.0.label>
 	
 	<!-- EN: The nuns' movements were stiff, unnatural and passionless. There was hardly any dignity to the ceremony. -->
-	<Humanlike_Thought_FlowerDanceTerrible.stages.1.description>修女們的動作僵硬、不自然、沒有熱情。儀式幾乎沒有任何尊嚴可言。</Humanlike_Thought_FlowerDanceTerrible.stages.1.description>
+	<Humanlike_Thought_FlowerDanceMediocre.stages.0.description>修女們的動作僵硬、不自然、沒有熱情。儀式幾乎沒有任何尊嚴可言。</Humanlike_Thought_FlowerDanceMediocre.stages.0.description>
 	
 	<!-- EN: beautiful flower dance -->
-	<Humanlike_Thought_FlowerDanceTerrible.stages.2.label>優美的祭祖花舞</Humanlike_Thought_FlowerDanceTerrible.stages.2.label>
+	<Humanlike_Thought_FlowerDanceBeautiful.stages.0.label>優美的祭祖花舞</Humanlike_Thought_FlowerDanceBeautiful.stages.0.label>
 	
 	<!-- EN: The flower dance was beautiful. The nuns really moved with grace and finesse. Our ancestors would be pleased with our devotion to their memory. -->
-	<Humanlike_Thought_FlowerDanceTerrible.stages.2.description>花舞非常優美。修女們的動作真的是優雅而精巧。我們的祖先會因為我們對他們的奉獻而感到欣慰。</Humanlike_Thought_FlowerDanceTerrible.stages.2.description>
+	<Humanlike_Thought_FlowerDanceBeautiful.stages.0.description>花舞非常優美。修女們的動作真的是優雅而精巧。我們的祖先會因為我們對他們的奉獻而感到欣慰。</Humanlike_Thought_FlowerDanceBeautiful.stages.0.description>
 	
 	<!-- EN: unforgettable flower dance -->
-	<Humanlike_Thought_FlowerDanceTerrible.stages.3.label>難忘的祭祖花舞</Humanlike_Thought_FlowerDanceTerrible.stages.3.label>
+	<Humanlike_Thought_FlowerDanceUnforgettable.stages.0.label>難忘的祭祖花舞</Humanlike_Thought_FlowerDanceUnforgettable.stages.0.label>
 	
 	<!-- EN: The flower dance was specatular! The nuns danced with otherworldly grace, their movements flowing like a gentle breeze, flower petals raining everywhere. It was as if the spirits of our very ancestors were here with us! -->
-	<Humanlike_Thought_FlowerDanceTerrible.stages.3.description>令人驚嘆的花舞！修女們舞姿優美，動作如微風拂面，花瓣紛飛。彷彿我們祖先的靈魂與我們同在！</Humanlike_Thought_FlowerDanceTerrible.stages.3.description>
+	<Humanlike_Thought_FlowerDanceUnforgettable.stages.0.description>令人驚嘆的花舞！修女們舞姿優美，動作如微風拂面，花瓣紛飛。彷彿我們祖先的靈魂與我們同在！</Humanlike_Thought_FlowerDanceUnforgettable.stages.0.description>
 	
 	<!-- EN: few flowers destroyed -->
 	<Humanlike_Thought_FlowersDestroyed.stages.0.label>少許的花被破壞</Humanlike_Thought_FlowersDestroyed.stages.0.label>
@@ -108,6 +108,78 @@
 	
 	<!-- EN: What is this, a garden for Pudgemice? It needs to be at least three times as big! -->
 	<Humanlike_Thought_GardensDesired.stages.1.description>這是什麼,給胖胖鼠的花園嗎？它至少需要比這個大三倍！</Humanlike_Thought_GardensDesired.stages.1.description>
+	
+	<!-- EN: Horrified by heretic execution -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.0.label>對異端處決感到驚恐</Humanlike_Thought_HereticExecutionTerrible.stages.0.label>
+	
+	<!-- EN: Such barbarism! I don't feel safe here anymore...  -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.0.description>太野蠻了！這個地方再也不安全了...</Humanlike_Thought_HereticExecutionTerrible.stages.0.description>
+	
+	<!-- EN: Horrified by heretic execution -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.1.label>對異端處決感到驚恐</Humanlike_Thought_HereticExecutionTerrible.stages.1.label>
+	
+	<!-- EN: Everyone knew this was all wrong! I don't feel safe here anymore... -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.1.description>大家明明知道這一切都是不對的！這個地方再也不安全了...</Humanlike_Thought_HereticExecutionTerrible.stages.1.description>
+	
+	<!-- EN: Terrible heretic execution -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.2.label>糟糕的異端處決</Humanlike_Thought_HereticExecutionTerrible.stages.2.label>
+	
+	<!-- EN: None of the charges made any sense, and yet the prisoners were condemned to the fires. Is this what Valerian would have wanted? -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.2.description>沒有一項指控是合情合理的，但囚犯們仍然被處以火刑。這是智者纈草所希望的嗎？</Humanlike_Thought_HereticExecutionTerrible.stages.2.description>
+	
+	<!-- EN: Terrible heretic execution -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.3.label>糟糕的異端處決</Humanlike_Thought_HereticExecutionTerrible.stages.3.label>
+	
+	<!-- EN: Mediocre! How would anyone take the divine truth seriously after this display of incompetence? -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.3.description>平庸！在這種無能的表現之後，還會有人認真看待神聖的真理嗎？</Humanlike_Thought_HereticExecutionTerrible.stages.3.description>
+
+	<!-- EN: Horrified by heretic execution -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.0.label>對異端處決感到驚恐</Humanlike_Thought_HereticExecutionSatisfying.stages.0.label>
+	
+	<!-- EN: Such barbarism! I don't feel safe here anymore...  -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.0.description>太野蠻了！這個地方再也不安全了...</Humanlike_Thought_HereticExecutionSatisfying.stages.0.description>
+	
+	<!-- EN: Horrified by heretic execution -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.1.label>對異端處決感到驚恐</Humanlike_Thought_HereticExecutionSatisfying.stages.1.label>
+	
+	<!-- EN: They're persecuting us! I don't feel safe here anymore... -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.1.description>他們在迫害我們！這個地方再也不安全了...</Humanlike_Thought_HereticExecutionSatisfying.stages.1.description>
+	
+	<!-- EN: Satisfying heretic execution -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.2.label>滿足的異端處決</Humanlike_Thought_HereticExecutionSatisfying.stages.2.label>
+	
+	<!-- EN: Justice had to be served against those heretics. May Valerian the Wise be merciful and grant them a place in The Great Garden. -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.2.description>必須對那些異端伸張正義。願智者纈草仁慈，在大花園中給他們一席之地。</Humanlike_Thought_HereticExecutionSatisfying.stages.2.description>
+	
+	<!-- EN: Satisfying heretic execution -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.3.label>滿足的異端處決</Humanlike_Thought_HereticExecutionSatisfying.stages.3.label>
+	
+	<!-- EN: Serves those heretics right! -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.3.description>那些異端真是活該！</Humanlike_Thought_HereticExecutionSatisfying.stages.3.description>
+
+	<!-- EN: Horrified by heretic execution -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.0.label>對異端處決感到驚恐</Humanlike_Thought_HereticExecutionSpectacular.stages.0.label>
+	
+	<!-- EN: Such barbarism! I don't feel safe here anymore...  -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.0.description>太野蠻了！這個地方再也不安全了...</Humanlike_Thought_HereticExecutionSpectacular.stages.0.description>
+	
+	<!-- EN: Horrified by heretic execution -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.1.label>對異端處決感到驚恐</Humanlike_Thought_HereticExecutionSpectacular.stages.1.label>
+	
+	<!-- EN: They're persecuting us! I don't feel safe here anymore... -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.1.description>他們在迫害我們！這個地方再也不安全了...</Humanlike_Thought_HereticExecutionSpectacular.stages.1.description>
+	
+	<!-- EN: Spectacular heretic execution -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.2.label>精彩的異端處決</Humanlike_Thought_HereticExecutionSpectacular.stages.2.label>
+	
+	<!-- EN: To think such depraved individuals once lived among us... we were right to purge the impure from this community! -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.2.description>想想這些墮落的人曾經住在我們中間...把不潔的人從這個社區中清除是對的！</Humanlike_Thought_HereticExecutionSpectacular.stages.2.description>
+	
+	<!-- EN: Spectacular heretic execution -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.3.label>精彩的異端處決</Humanlike_Thought_HereticExecutionSpectacular.stages.3.label>
+	
+	<!-- EN: The flames, the screams! Valerian be praised, for thy will has been done! -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.3.description>如此令人愉悅的火焰和尖叫聲！智者纈草，你的旨意已被遵行！</Humanlike_Thought_HereticExecutionSpectacular.stages.3.description>
 	
 	<!-- EN: prejudiced towards talking mice -->
 	<Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>歧視會說話的老鼠</Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>

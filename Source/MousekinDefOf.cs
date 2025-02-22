@@ -14,6 +14,9 @@ namespace MousekinRace
 
         public static ThingDef Mousekin_GlassesLarge;
 
+        public static ThingDef Mousekin_ApparelPriestCassock;
+        public static ThingDef Mousekin_HatWoodsman;
+
         public static ThingDef Mousekin_AnimalGiantCavy;
         public static ThingDef Mousekin_AnimalPudgemouse;
 
@@ -118,6 +121,21 @@ namespace MousekinRace
         public static QuestScriptDef EndGame_RoyalAscent;
 
         [MayRequireIdeology]
+        public static DutyDef AcceptRole;
+
+        [MayRequireIdeology]
+        public static DutyDef DeliverPawnToAltar;
+
+        [MayRequireIdeology]
+        public static DutyDef DeliverPawnToCell;
+
+        [MayRequireIdeology]
+        public static DutyDef LayDownAwake;
+
+        [MayRequireIdeology]
+        public static DutyDef SpectateCircle;
+
+        [MayRequireIdeology]
         public static MemeDef AnimalPersonhood;
 
         [MayRequireIdeology]
@@ -128,6 +146,9 @@ namespace MousekinRace
 
         [MayRequireIdeology]
         public static MemeDef Mousekin_IdeoMeme_RodentPurity;
+
+        [MayRequireIdeology]
+        public static MemeDef HAR_Xenophilia;
 
         [MayRequireIdeology]
         public static PreceptDef HAR_AlienRaces_Standard;
@@ -143,6 +164,9 @@ namespace MousekinRace
 
         [MayRequireIdeology]
         public static JobDef Mousekin_Job_PerformFlowerDance;
+
+        [MayRequireIdeology]
+        public static JobDef Mousekin_Job_SetHereticOnFire;
 
         [MayRequireIdeology]
         public static PreceptDef Mousekin_Precept_FlowersDesired;
